@@ -16097,7 +16097,7 @@ span.select2-selection.select2-selection--single:focus {
   display: inline-flex;
   padding: 16px;
   gap: 14px;
-  max-width: 252px;
+  max-width: 450px;
   position: absolute;
   right: 95px;
   bottom: 50px;
@@ -23238,7 +23238,7 @@ span.select2-selection.select2-selection--single:focus {
 
 .property-page-single .property-grid-list {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   background: var(--theme-color);
   border-radius: 8px;
   padding: 40px 45px;
@@ -23254,13 +23254,13 @@ span.select2-selection.select2-selection--single:focus {
 
 @media (max-width: 1399px) {
   .property-page-single .property-grid-list {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (max-width: 1299px) {
   .property-page-single .property-grid-list {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
@@ -23350,7 +23350,7 @@ span.select2-selection.select2-selection--single:focus {
   display: inline-flex;
   padding: 16px;
   gap: 14px;
-  max-width: 252px;
+  max-width: 450px;
   position: absolute;
   right: 95px;
   bottom: 50px;
@@ -23360,6 +23360,7 @@ span.select2-selection.select2-selection--single:focus {
 @media (max-width: 375px) {
   .property-page-single .location-map .location-map-address {
     right: 15px;
+    max-width: calc(100% - 30px);
   }
 }
 
