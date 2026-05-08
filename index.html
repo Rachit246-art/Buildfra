@@ -95,6 +95,26 @@
     .copyright-text a:hover {
         color: #ffffff !important;
     }
+    .gallery-card .gallery-img {
+        height: 300px;
+        overflow: hidden;
+    }
+    .gallery-card .gallery-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .gallery-card .gallery-img {
+        height: 400px !important;
+        width: 100% !important;
+        overflow: hidden !important;
+        border-radius: 15px;
+    }
+    .gallery-card .gallery-img img {
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: cover !important;
+    }
 </style>
 </head>
 
@@ -635,26 +655,7 @@ About Area
                     </div>
                 </div>
             </div>
-            <div class="mt-60">
-                <div class="row gy-40 flex-row-reverse">
-                    <div class="col-xl-3 text-xl-end">
-                        <div class="about-tag">
-                            <div class="about-experience-tag">
-                                <span class="circle-title-anime" style="color: black; font-weight: bold;">Mr.Sandeep <i class="fas fa-star"></i> Skygate</span>
-                            </div>
-                            <div class="about-tag-thumb">
-                                <img src="assets/img/testimonial/t1.jpg" alt="img">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-9">
-                        <div class="about-wrap1">
-                            <p class="about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        </div>
-                    </div>
 
-                </div>
-            </div>
         </div>
     </div>
     <!--==============================
@@ -1097,7 +1098,7 @@ Property Area
     <!--==============================
 Gallery Area  
 ==============================-->
-    <section class="space bg-white" id="gallery-sec">
+    <section class="space space-bottom bg-white" id="gallery-sec">
         <div class="container">
             <div class="row justify-content-between align-items-center">
                 <div class="col-lg-6">
@@ -1108,7 +1109,7 @@ Gallery Area
                     </div>
                 </div>
             </div>
-            <div class="row gy-30 masonry-active">
+            <div class="row gy-30">
                 <div class="col-md-6 col-xl-4 filter-item">
                     <div class="gallery-card">
                         <div class="gallery-img img-shine">
