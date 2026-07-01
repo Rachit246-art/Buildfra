@@ -1,4 +1,4 @@
-<!DOCTYPE html><html class="no-js" lang="zxx" dir="ltr"><head>
+﻿<!DOCTYPE html><html class="no-js" lang="zxx" dir="ltr"><head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>BuildFra - Property Solutions </title>
@@ -109,6 +109,14 @@
         width: 100% !important;
         overflow: hidden !important;
         border-radius: 15px;
+    }
+    .gallery-card .gallery-img a.popup-image {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    .gallery-card .gallery-img a.popup-image:after {
+        display: none !important;
     }
     .gallery-card .gallery-img img {
         width: 100% !important;
@@ -319,12 +327,7 @@
                     </li><li><a href="whyus.html">
                         Why Us
                     </a></li>
-                    <li>
-                        <a href="testimonials.html">
-                            Testimonials
-                        </a>
-                      
-                    </li><li><a href="faq.html">FAQ</a></li>
+<li><a href="faq.html">FAQ</a></li>
                     <li><a href="blog.html">
                         Blog
                     </a></li>
@@ -429,12 +432,7 @@
                                     <li><a href="whyus.html">
                                         Why Us
                                     </a></li>
-                                    <li>
-                                        <a href="testimonials.html">
-                                            Testimonials
-                                        </a>
-                                      
-                                    </li><li><a href="faq.html">FAQ</a></li>
+<li><a href="faq.html">FAQ</a></li>
                                     <li><a href="blog.html">
                                         Blog
                                     </a></li>
@@ -623,13 +621,13 @@ Counter Area
     </div><!--==============================
 About Area  
 ==============================-->
-    <div class="overflow-hidden space-top bg-white" id="about-sec">
+    <div class="overflow-hidden space bg-white" id="about-sec">
         <div class="container">
             <div class="row justify-content-between align-items-center">
                 <div class="col-lg-6">
                     <div class="title-area">
                         <span class="shadow-title">About</span>
-                        <h2 class="sec-title">Welcome to BuildFra</h2>
+                        <h2 class="sec-title">About Us</h2>
                         <p class="sec-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                     </div>
                 </div>
@@ -659,9 +657,86 @@ About Area
         </div>
     </div>
     <!--==============================
+Why Choose Us Area  
+==============================-->
+<div class="why-sec-1 overflow-hidden space bg-theme">
+    <div class="sec-bg-shape2-1 text-white spin shape-mockup d-xl-block d-none" data-bottom="15%" data-left="12%">
+        <img src="assets/img/shape/section_shape_2_1.jpg" alt="img">
+    </div>
+    <div class="sec-bg-shape2-3 text-white jump shape-mockup d-xl-block d-none" data-bottom="0%" data-right="7%">
+        <img src="assets/img/shape/section_shape_2_3.jpg" alt="img">
+    </div>
+    <div class="container">
+        <div class="row justify-content-lg-between align-items-center">
+            <div class="col-lg-6">
+                <div class="title-area">
+                    <h2 class="sec-title text-white">Why Choose Us?</h2>
+                    <p class="text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+            </div>
+            <div class="col-auto">
+                <div class="sec-btn">
+                    <a href="contact.html" class="th-btn style-border th-btn-icon">Contact Us</a>
+                </div>
+            </div>
+        </div>
+        <div class="row gy-4 justify-content-center">
+            <div class="col-lg-6 col-md-6">
+                <div class="service-card style4">
+                    <div class="service-card-icon">
+                        <img src="assets/img/icon/trusted industry experts.png" alt="Icon" height="70px" width="70px">
+                    </div>
+                    <h3 class="box-title"><a href="property-details.html">Trusted Industry Experts</a></h3>
+                    <p class="box-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <div class="service-img img-shine" style="max-height: 400px; overflow: hidden; border-radius: 20px;">
+                        <img src="assets/img/pages/1.jpg" alt="img" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <div class="service-card style4">
+                    <div class="service-card-icon">
+                        <img src="assets/img/icon/curated premium properties.png" alt="Icon" height="70px" width="70px">
+                    </div>
+                    <h3 class="box-title"><a href="property-details.html">Curated Premium Properties</a></h3>
+                    <p class="box-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <div class="service-img img-shine" style="max-height: 400px; overflow: hidden; border-radius: 20px;">
+                        <img src="assets/img/pages/2.jpg" alt="img" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <div class="service-card style4">
+                    <div class="service-card-icon">
+                        <img src="assets/img/icon/transparent process.png" alt="Icon" height="70px" width="70px">
+                    </div>
+                    <h3 class="box-title"><a href="property-details.html">Transparent &amp; Hassle-Free Process</a></h3>
+                    <p class="box-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <div class="service-img img-shine" style="max-height: 400px; overflow: hidden; border-radius: 20px;">
+                        <img src="assets/img/pages/3.jpg" alt="img" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <div class="service-card style4">
+                    <div class="service-card-icon">
+                        <img src="assets/img/icon/client support.png" alt="Icon" height="70px" width="70px">
+                    </div>
+                    <h3 class="box-title"><a href="property-details.html">Personalized Client Support</a></h3>
+                    <p class="box-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <div class="service-img img-shine" style="max-height: 400px; overflow: hidden; border-radius: 20px;">
+                        <img src="assets/img/pages/4.jpg" alt="img" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+    <!--==============================
 Service Area  
 ==============================-->
-    <section class="service-area-1 overflow-hidden space-bottom bg-theme pt-80" id="service-sec">
+    <section class="service-area-1 overflow-hidden space-bottom bg-white pt-80" id="service-sec">
         <div class="container">
             <div class="row gy-40">
                 <div class="col-lg-4 col-md-6">
@@ -802,7 +877,7 @@ Portfolio Area
 <!--==============================
 Property Area  
 ==============================-->
-    <section class="space bg-theme" id="property-sec">
+    <!-- <section class="space bg-theme" id="property-sec">
         <div class="container">
             <div class="row justify-content-between align-items-center">
                 <div class="col-lg-6">
@@ -901,7 +976,7 @@ Property Area
                 <a href="property.html" class="th-btn btn-mask2 th-btn-icon">View More</a>
             </div>
         </div>
-        </section></div>
+        </section></div> -->
     <!--==============================
 Property Area  
 ==============================-->
@@ -1113,42 +1188,54 @@ Gallery Area
                 <div class="col-md-6 col-xl-4 filter-item">
                     <div class="gallery-card">
                         <div class="gallery-img img-shine">
-                            <img src="assets/img/properties img/Oberoi/12.jpg" alt="gallery image">
+                            <a href="assets/img/properties img/Oberoi/12.jpg" class="popup-image">
+                                <img src="assets/img/properties img/Oberoi/12.jpg" alt="gallery image">
+                            </a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-xl-4 filter-item">
                     <div class="gallery-card">
                         <div class="gallery-img img-shine">
-                            <img src="assets/img/properties img/Goodwill Wisteria/02.jpg" alt="gallery image">
+                            <a href="assets/img/properties img/Goodwill Wisteria/02.jpg" class="popup-image">
+                                <img src="assets/img/properties img/Goodwill Wisteria/02.jpg" alt="gallery image">
+                            </a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-xl-4 filter-item">
                     <div class="gallery-card">
                         <div class="gallery-img img-shine">
-                            <img src="assets/img/properties img/EV Malibu/6.jpg" alt="gallery image">
+                            <a href="assets/img/properties img/EV Malibu/6.jpg" class="popup-image">
+                                <img src="assets/img/properties img/EV Malibu/6.jpg" alt="gallery image">
+                            </a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-xl-4 filter-item">
                     <div class="gallery-card">
                         <div class="gallery-img img-shine">
-                            <img src="assets/img/properties img/New Palm Beach/gallery 2.jpeg" alt="gallery image">
+                            <a href="assets/img/properties img/New Palm Beach/gallery 2.jpeg" class="popup-image">
+                                <img src="assets/img/properties img/New Palm Beach/gallery 2.jpeg" alt="gallery image">
+                            </a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-xl-4 filter-item">
                     <div class="gallery-card">
                         <div class="gallery-img img-shine">
-                            <img src="assets/img/properties img/Neelkanth Palm President/9999.png" alt="gallery image">
+                            <a href="assets/img/properties img/Neelkanth Palm President/9999.png" class="popup-image">
+                                <img src="assets/img/properties img/Neelkanth Palm President/9999.png" alt="gallery image">
+                            </a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-xl-4 filter-item">
                     <div class="gallery-card">
                         <div class="gallery-img img-shine">
-                            <img src="assets/img/properties img/kamdenu/KAMDHENU CROWN - BANNER 2.jpg" alt="gallery image">
+                            <a href="assets/img/properties img/kamdenu/KAMDHENU CROWN - BANNER 2.jpg" class="popup-image">
+                                <img src="assets/img/properties img/kamdenu/KAMDHENU CROWN - BANNER 2.jpg" alt="gallery image">
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -1270,13 +1357,13 @@ Testimonial Area
     <!--==============================
 Blog Area  
 ==============================-->
-    <section class="space bg-theme" id="blog-sec">
+    <section class="space bg-white" id="blog-sec">
         <div class="container">
             <div class="row justify-content-between align-items-center">
                 <div class="col-xl-5 col-lg-7">
                     <div class="title-area">
                         <span class="shadow-title">Blog</span>
-                        <h2 class="sec-title text-white">Latest Blog &amp; News</h2>
+                        <h2 class="sec-title">Latest Blog &amp; News</h2>
                     </div>
                 </div>
                 <div class="col-auto">
@@ -1580,7 +1667,6 @@ Blog Area
                                     <ul class="menu">
                                         <li><a href="about.html">About us</a></li>
                                         <li><a href="property.html">Featured Properties</a></li>
-                                        <li><a href="whyus.html">Our Best Services</a></li>
                                         <li><a href="contact.html">Request Visit</a></li>
                                         <li><a href="faq.html">FAQ</a></li>
                                     </ul>

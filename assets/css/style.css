@@ -34211,16 +34211,21 @@ span.select2-selection.select2-selection--single:focus {
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
 
+/* Push down breadcrumb wrapper on inner pages to prevent header overlap */
+.breadcumb-wrapper {
+    margin-top: 140px;
+}
+
 .header-layout1 .main-menu > ul > li > a {
-    color: var(--theme-color) !important;
+    color: var(--black-color2) !important;
 }
 
 .header-layout1 .main-menu > ul > li > a:hover {
-    color: var(--theme-color2) !important;
+    color: var(--theme-color) !important;
 }
 
 .header-layout1 .main-menu > ul > li.active > a {
-    color: var(--theme-color2) !important;
+    color: var(--theme-color) !important;
 }
 
 .header-layout1 .th-menu-toggle {
@@ -34247,17 +34252,24 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 .th-social.style3 a {
-    background-color: rgba(255, 255, 255, 0.1) !important;
-    color: #ffffff !important;
-    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    background-color: transparent !important;
+    color: var(--theme-color) !important;
+    border: 1px solid var(--theme-color) !important;
 }
 
 .th-social.style3 a:hover {
-    background-color: var(--theme-color2) !important;
-    color: var(--theme-color) !important;
+    background-color: var(--theme-color) !important;
+    color: #ffffff !important;
 }
 
 /* Global Social Icon Theme Fix */
+.th-social.style4 a {
+    color: var(--white-color);
+}
+.th-social.style4 a:hover {
+    color: var(--theme-color);
+}
+
 .th-social a {
     background-color: var(--white-color) !important;
     color: var(--theme-color) !important;
@@ -34298,4 +34310,98 @@ span.select2-selection.select2-selection--single:focus {
     background-color: var(--theme-color);
     color: #fff;
     transform: scale(1.1);
+}
+
+/* Force all buttons to be red with white text */
+.th-btn,
+.th-btn.btn-mask,
+.th-btn.btn-mask2,
+.th-btn.style-border,
+.th-btn.style-border2,
+.th-btn.style-border3,
+.th-btn.style2,
+.th-btn.style3,
+.th-btn.style4,
+.th-btn.style5 {
+    background-color: var(--theme-color) !important;
+    background: var(--theme-color) !important;
+    color: var(--white-color) !important;
+    border-color: var(--theme-color) !important;
+}
+
+.th-btn i,
+.th-btn .th-btn-icon {
+    color: var(--white-color) !important;
+}
+
+/* Remove hover transition on service card icons to keep them white */
+.service-card.style4:hover .service-card-icon {
+    background: transparent !important;
+}
+.service-card.style4:hover .service-card-icon img {
+    transform: scale(1.15) !important;
+}
+
+/* Custom override for blog text on white background */
+.bg-white .blog-grid .blog-content .subtitle {
+    color: var(--theme-color);
+}
+.bg-white .blog-grid .blog-content .box-title a {
+    color: var(--title-color);
+}
+.bg-white .blog-grid .blog-content .box-title a:hover {
+    color: var(--theme-color);
+}
+.bg-white .blog-grid .blog-content .blog-text,
+.bg-white .blog-grid .blog-date {
+    color: var(--body-color);
+}
+
+/* Custom override for service area text and icons on white background */
+.bg-white .service-card .box-title a {
+    color: var(--title-color);
+}
+.bg-white .service-card .box-title a:hover {
+    color: var(--theme-color);
+}
+.bg-white .service-card .box-text {
+    color: var(--body-color);
+}
+.bg-white .service-card-icon img,
+.bg-white .service-card .service-card-icon img {
+    filter: brightness(0) !important;
+}
+.bg-white .service-card:hover .service-card-icon img {
+    filter: brightness(0) invert(30%) sepia(80%) saturate(1475%) hue-rotate(344deg) brightness(88%) contrast(93%) !important;
+}
+
+/* Custom override for property card subtext */
+.property-card2 .property-card-location {
+    color: var(--body-color) !important;
+}
+
+/* Custom override for blog page elements to match property cards */
+.th-blog.blog-single .blog-title,
+.th-blog.blog-single .blog-title a {
+    color: var(--theme-color) !important;
+}
+.th-blog.blog-single .blog-text,
+.th-blog.blog-single .blog-meta,
+.th-blog.blog-single .blog-meta a {
+    color: var(--body-color) !important;
+}
+
+/* Ensure text inside red (bg-theme) sections is white for visibility */
+.bg-theme .box-title,
+.bg-theme .box-title a,
+.bg-theme .box-text,
+.bg-theme .sec-text {
+    color: #ffffff !important;
+}
+
+/* Ensure icons inside red (bg-theme) sections are white for visibility */
+.bg-theme .service-card-icon img,
+.bg-theme .service-card .service-card-icon img,
+.bg-theme .service-card:hover .service-card-icon img {
+    filter: brightness(0) invert(1) !important;
 }
